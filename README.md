@@ -2,7 +2,7 @@
 
 This is a Streamlit dashboard built for Nassau Candy Distributor, or at least a version of it inspired by their shipping data. The basic question driving the whole thing is simple enough to state in one line: if a product currently ships out of one factory, would it get to customers faster (or more profitably) out of a different one? Answering that for real, at scale, across thousands of orders, is where it stops being simple.
 
-Live demo:https://factory-reallocation-shipping-optimization-recommendation-syst.streamlit.app/
+**Live demo:** [factory-reallocation-shipping-optimization-recommendation-sys.com](https://factory-reallocation-shipping-optimization-recommendation-syst.streamlit.app/)
 
 ## What this actually does
 
