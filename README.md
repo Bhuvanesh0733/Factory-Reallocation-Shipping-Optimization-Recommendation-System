@@ -2,6 +2,8 @@
 
 This is a Streamlit dashboard built for Nassau Candy Distributor, or at least a version of it inspired by their shipping data. The basic question driving the whole thing is simple enough to state in one line: if a product currently ships out of one factory, would it get to customers faster (or more profitably) out of a different one? Answering that for real, at scale, across thousands of orders, is where it stops being simple.
 
+Live demo:https://factory-reallocation-shipping-optimization-recommendation-syst.streamlit.app/
+
 ## What this actually does
 
 The dataset is order-level shipping records: dates, regions, divisions, product names, costs, profits, that sort of thing. None of it mentions which factory makes which product, so the first real step is mapping each Wonka-branded item to one of five fictional factories (Lot's O' Nuts, Wicked Choccy's, Sugar Shack, Secret Factory, and The Other Factory) using a manually built lookup table. Once that's in place, the app calculates a delay metric, ship date minus order date, and tries to model it.
